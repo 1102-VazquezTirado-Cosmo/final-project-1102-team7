@@ -26,9 +26,9 @@ int main(){
 		printf("Cant open file\n");
 		return 0;
 		}
-	textGrab(FILE* fPtr, fullText[ROW][COLUMN]);
+	textGrab(FILE* fPtr, fullText);
 	fclose(fPtr);
-	userPrompt(words[ROW][COLUMN], fullText[ROW][COLUMN]);
+	userPrompt(words, fullText);
 
  
 
